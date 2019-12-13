@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="css/style.css" title="" >
+    <link rel="alternate stylesheet"  href="css/style1.css" title="CSS1">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1 id="name">Thibault Vallet</h1>
+    </header>
+    
+    <main>
+        <div>
+            <img id="pp" src='images/photoCV.png' alt='ma photo de profile'/>
+            <!-- appelle la fonction JS pour le monde jour et nuit -->
+            <button id="day" onclick="setActiveStyleSheet('')">mode jour</button>
+            <button id="night" onclick="setActiveStyleSheet('CSS1')">mode nuit</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th  id="titleTable">Mes Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Tel:</b></td>
+                        <td>+33667752828</td>
+                    </tr>
+                    <tr>
+                        <td><b>Email:</b> </td>
+                        <td>t.vallet@it-students.fr</td>
+                    </tr>
+                    <tr>
+                        <td><b>Github:</b></td>
+                        <td><a href="https://github.com/tvallet16">tvallet16</a></td>
+                    </tr>
+                    <tr>
+                        <td><b>Adresse:</b> </td>
+                        <td>325 Rue du buisson, Fontaine St Martin </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1 id="titleCV">Etudiant en prépa developper full stack</h1>
+        </div>
+        <h2 class="titlePart"> Diplôme / Expérience Professionnelle</h2>
+        <!-- debut de la timeline -->
+        <div class="blockCV" >
+            <div class="timeline">
+                <!-- les conteneur à droite de la timeline -->
+                <div class="containerLeft">
+                    <!-- cree un conteneur qui contiendra le text -->
+                    <div class="content">
+                        <h2 class="HTimeLine">2018/2019</h2>
+                        <p class="PTimeLine"><b>Agent service commerciale train</b> sncf </p>
+                    </div>
+                </div>
+                <!-- les conteneur à gauche de la timeline -->
+                <div class="containerRight">
+                    <div class="content">
+                        <h2 class="HTimeLine">2017/2018</h2>
+                        <p class="HTimeLine"><b>Deuxième année licence en mathématique</b>, université Lyon 1</p>
+                    </div>
+                </div>
+                <div class="containerLeft">
+                    <div class="content">
+                        <h2 class="HTimeLine">07/2017</h2>
+                        <p class="PTimeLine">ASH à l'<b>hôpitale gériatrique de Fourvère</b></p>
+                    </div>
+                </div>
+                <div class="containerRight">
+                    <div class="content">
+                        <h2 class="HTimeLine">2017</h2>
+                        <p class="PTimeLine">Professeur particulier de mathématique</p>
+                    </div>
+                </div>
+                <div class="containerLeft">
+                    <div class="content">
+                        <h2 class="HTimeLine">2016/2017</h2>
+                        <p class="HTimeLine">Première année <b>en mathématique, université</b> Lyon 1</p>
+                    </div>
+                </div>
+                <div class="containerRight">
+                    <div class="content">
+                        <h2 class="HTimeLine">07/2016</h2>
+                        <p class="PTimeLine">ASH à l'<b>hôpital gériatrique d'Albigny</b> sur Saône</p>
+                    </div>
+                </div>
+                <div class="containerLeft">
+                    <div class="content">
+                        <h2 class="HTimeLine">2016</h2>
+                        <p class="HTimeLine">Titulaire du <b>Bac Scientifique</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- debut competence -->
+        <h2 class="titlePart"> Langages Informatique</h2>
+        <!-- contient les images des langages informatique avec leur barre de remplissage -->
+        <div class="comp">
+            <!-- immage du langages -->
+            <img class="icone" src="images/php.png" alt="php">
+            <!-- div pour la barre grise et span pour remplire un deuxieme objet pour l'ilusion de remplissage  -->
+            <div class="conteneur-barre"><span class="barre c90"></span></div>
+        </div>
+        <div class="comp">
+            <img class="html" src="images/html5.png" alt="hmtl">
+            <img class="css" src="images/css-3.png" alt="css">
+            <div class="conteneur-barre"><span class="barre c85"></span></div>
+        </div>
+        <div class="comp">
+            <img class="icone" src="images/js.png" alt="js">
+            <div class="conteneur-barre"><span class="barre c80"></span></div>
+        </div>
+        <div class="comp">
+            <img class="icone" src="images/sql-file-format.png" alt="sql">
+            <div class="conteneur-barre"><span class="barre c75"></span></div>
+        </div>
+        <div class="comp">
+            <img class="icone" src="images/gnu-bash.png" alt="bash">
+            <div class="conteneur-barre"><span class="barre c80"></span></div>
+        </div>
+        <h2 class="titlePart"> Centre d'Interêts</h2>
+        <div class="loisir" >
+            <img  src="images/DSC_0045.jpg" alt="ski">
+        </div>
+        <div>
+            <div>
+                <img id="travel" src="images/travel.jpeg" alt="travel">
+
+            </div>
+            <div>
+                <img id="volley" src="images/volley.jpeg" alt="volley">
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
