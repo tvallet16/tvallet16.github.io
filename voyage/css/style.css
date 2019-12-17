@@ -1,0 +1,90 @@
+header{
+    margin:0px;
+    height: 20em;
+    text-align: center;
+    color:teal;
+    padding: 50px;
+    background-image: url("../img/vacance.jpg");
+    background-size: cover;
+    margin-bottom:1em ;   
+}
+
+#title{
+    background-color: black;
+    margin-top:3em;
+    font-size: 3em;
+    width: 11em;
+    margin:auto;
+    text-align: center;
+    font-family: 'Fira Sans',sans-serif;
+    opacity: 0.7;
+}
+
+header:hover{
+    transition: 0.7s;
+    margin:0px;
+    text-align: center;
+    color :teal;
+    padding: 50px;
+    background-image: url("../img/groenland.jpg");
+    background-size: cover;
+    margin-bottom:1em ;   
+}
+
+body{
+    margin:0px;
+    background-color: #DDDDDD;
+}
+
+table, th, td {
+
+  }
+
+.paysage{
+    width: 35em;
+    height: 20em;
+}
+
+.portraiLeft{
+    width: 27em;
+    height: 35em;
+
+}
+
+.portraiRight{
+    width: 27em;
+    height: 35em;
+    float:right;
+}
+
+.tdMidle{
+    width: 19em;
+    text-align: center;
+
+}
+
+#star{
+    width: 15px;
+}
+
+#tripadvisor{
+    width: 25px;
+}
+
+p{
+    font-family: 'Fira Sans',sans-serif;
+
+}
+
+h3{
+    color: brown;
+}
+
+ul{
+    font-size: 1.5em;
+}
+
+#titleUL{
+    color: brown;
+
+}
