@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>babo SKI</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="liLogo" ><a id="lienLogo" href="index.html"><img id="logo" src="img/logoBaboSki.png"  alt="logoski"></a></li>
+                <li class="deroulant"><a href="#">Equipement &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="ski.html">Ski</a></li>
+                        <li><a href="snowboard.html">Snowboard</a></li>
+                        <li><a href="chaussure.html">Chaussure</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="#"> Accessoires &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="gants.html">Gants</a></li>
+                        <li><a href="casque.html">Casques</a></li>
+                        <li><a href="manteau.html">Manteaux</a></li>
+                        <li><a href="pantalon.html">Pantalons</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <form id="formHeader" action=""  autocomplete="off" onsubmit="return false">
+                        <input id="pseudo" type="text" name="name" placeholder="pseudo" >
+                        <input type="password" name="password" placeholder="mot de passe">
+                        <input type="submit" name="ok" onclick="pseud()" value="valider" >
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="conteneur">
+        </div>
+    </header>
+
+    <main>
+        <div id="container">
+            <div id="content">
+                <div class="message">
+                    <h1>le ski partout avec Babo SKI</h1>
+                </div>
+            </div>
+          </div>
+        <div id="background_container">
+            <video playsinline autoplay muted loop id="background_video_2">
+
+
+                <source src="video/Candide_Thovex_-_quattro_2_hd.mp4" type="video/mp4">
+
+            </video>
+        </div>
+        <div class="pub">
+            <div class="messagePub">
+                <p>noel avant l'heure. Les reduc arrivent tout shuss!!!</p>
+            </div>
+            <div id="imgPub">
+                <a href="manteau.html"><img class="manteauG" src="img/girls.png" alt="manteauG"></a>
+                <a href="manteau.html"><img  class="manteauB" src="img/boy.png" alt="manteauB"></a>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Des paysages à couper le soufle pour des senssation extraordinaire</h2>
+            <table  id="tableAccueuil">
+                <tr class="imgAccueuil">
+                    <td><img class="pictureAccueuilLeft" src="img/photoKing.jpg" alt="ski"> </td>
+                    <td class="tdRight"><img class="pictureAccueuilRight" src="img/skieurCoucherSoleil.jpg" alt="ski"></td>
+                </tr>
+                <tr class="imgAccueuil">
+                    <td><img class="pictureAccueuilLeft" src="img/montagne.jpg" alt="ski"></td>
+                    <td class="tdRight"><img class="pictureAccueuilRight" src="img/rider6.jpg" alt="ski"></tdclass="tdRight">
+                </tr>
+            </table>
+        </div>
+
+        <div class="pub">
+            <div class="messagePub">
+                <p>Un équipement à la pointe de la technologie pour un confort optimum</p>
+            </div>
+            <div id="imgPub">
+                <a href="gants.html"><img class="manteau" src="img/gant.png" alt=""></a>
+                <a href="chaussure.html"><img  class="manteau" src="img/boots.png" alt=""></a>
+            </div>
+        </div>
+       
+
+
+    </main>
+
+    <footer>
+        les ambassadeure de la marque 
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

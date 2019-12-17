@@ -1,0 +1,275 @@
+
+
+body{
+    margin:0px;
+}
+main{
+    margin-top: 6em;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+header{
+    background-color:#BBBBBB;
+    width: 100%;
+}
+
+
+nav{
+    margin: 0 auto;
+    background-color: #BBBBBB;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    opacity: 0.8;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 1em;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    z-index: 1000;
+}
+
+nav a:hover{
+    color: #0D78F1;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #BBBBBB;
+}
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+}
+
+form{
+    margin-top: 8px;
+    visibility: visible;
+}
+
+#logo{
+    width: 6em;
+    margin-left: 2em;
+    float:left
+
+}
+
+#liLogo{
+    margin-top:0px;
+}
+
+#lienLogo{
+    border-bottom: none;
+}
+
+table{
+    margin:auto;
+    width: 100vw;
+
+}
+
+td{
+    margin-bottom: 7em;
+    text-align: center;
+    z-index: 1;
+
+}
+
+td p{
+    margin-top: 3.5em;
+    text-align: center;
+}
+
+
+#skiTable td:hover{
+    transition: 0.4s;
+    color:#0D78F1;
+    transform: scale(1.1); 
+    z-index: 0;
+
+}
+
+.paysage{
+    width: 35em;
+    height: 20em;
+}
+
+.pictureLeft{
+    width: 100%;
+    height: 33em;
+
+
+}
+
+.pictureRight{
+    width: 100%;
+    height: 33em;
+
+}
+
+.pictureMidle{
+    width: 100%;
+    height: 33em;
+}
+
+
+h2{
+    transition: 0.4s;
+    
+}
+#tableAccueuil{
+    border-spacing: 5px 5px;
+    padding-right: 8em;
+    
+}
+
+.pictureAccueuilLeft{
+    width: 65%;
+    height: 25em;
+    z-index: 1;
+    border-radius: 1em;
+
+
+}
+
+.imgAccueuil p{
+    position: relative;
+    text-align: center;
+    color: lawngreen;
+    padding-bottom: 40%;
+}
+
+.pictureAccueuilRight{
+  
+    width: 100%;
+    height: 25em;
+    text-align: center;
+    border-radius: 1em;
+
+}
+
+
+
+
+.pictureAccueuilRight:hover{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.pictureAccueuilLeft:hover{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    
+}
+
+#container{
+    display:table;
+    width:100%;
+    height:49em;
+    overflow:hidden;
+  }
+  /* #content{
+    display:table-cell;
+    vertical-align:middle;
+    width:100%;
+    height:100%;
+    text-align:center;
+    position:relative;
+    margin-bottom: auto;
+    padding-top: 0px;
+
+  } */
+
+  .message{
+    position:relative;
+    z-index:12;
+    background:rgba(0,0,0,0.5);
+    color:rgb(255, 255, 255);
+    padding:5px;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  video{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    z-index: 1;
+  }
+
+  h2{
+    text-align: center;
+    margin: 3em ;
+  }
+ 
+  #imgPub{
+      padding-left: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+
+  .manteauG, .manteauB{
+    margin:3em;
+  }
+
+  .manteauG:hover, .manteauB:hover{
+   transition: 0,4;
+    opacity: 0.5;
+  }
+
+  .messagePub{
+    position:relative;
+    z-index:12;
+    color:#83173B;
+    padding:5px;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .pub{
+      background-color: #DDDDDD;
+  }
