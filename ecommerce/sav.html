@@ -43,7 +43,6 @@
     </header>
 
     <main>
-        <form action="#">
             <label for="questionSelect">question courante:</label>
             <select name="question" id="questionSelect" >
                 <option value="question1">Mon coli n'est pas arriver</option>
@@ -56,7 +55,37 @@
                 <option value="spider">Comment puis-je résilier une adhésion ou un abonnement ?</option>
             </select>
 
-            
+
+            <div class="wrap-contact100">
+                <span class="contact100-form-title">
+                    Envoie nous ton message :
+                </span>
+
+                <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                    <input class="input100" type="text" name="name" placeholder="Entre ton nom">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
+                    <input class="input100" type="text" name="email" placeholder="Entre ton E-mail">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Please enter your phone">
+                    <input class="input100" type="text" name="phone" placeholder="Ton numéro de téléphone">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                    <textarea class="input100" name="message"
+                        placeholder="Ton avis nous intéresse. Point positif ? Point Négatif?"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <input type="submit" value="valider!">
+                </div>
+            </div>
         </form>
     </main>
 

@@ -363,8 +363,7 @@ footer{
 }
 
 #info{
-    width: 98vw;
-    border:1px solid #000;
+    width: 35%;
     border-collapse: collapse;
     margin-left: 1em;
     margin-right: 1em;
@@ -372,14 +371,13 @@ footer{
 
 
 #info td{
-    border:1px solid #000;
     border-collapse: collapse;
+    text-align: left;
 }
 
-#info tr:nth-child(even) {
+/* #info tr:nth-child(even) {
     background-color: #DDDDDD;
-    /* pour que les lignes du tableau soit coloriées une sur deux */
-}
+} */
 
 iframe{
     margin-left: 30% ;
@@ -387,8 +385,4 @@ iframe{
     margin-bottom: 2em;
     border-radius: 1em;
     border:1px solid #000;
-
-    
-
-
 }
