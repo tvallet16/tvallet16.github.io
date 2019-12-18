@@ -27,11 +27,11 @@
                         <li><a href="pantalon.html">Pantalons</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li>
-                    <form id="formHeader" action=""  autocomplete="off" onsubmit="return false">
+                    <form id="formHeader" action="#"  autocomplete="off" onsubmit="return false">
                         <input id="pseudo" type="text" name="name" placeholder="pseudo" >
-                        <input type="password" name="password" placeholder="mot de passe">
+                        <input type="password" name="password" required placeholder="mot de passe">
                         <input type="submit" name="ok" onclick="pseud()" value="valider" >
                     </form>
                 </li>
@@ -43,26 +43,21 @@
     </header>
 
     <main>
-        <table id="skiTable">
-            <tr>
-                <td><p><b>rossignole Redflex</b></p><img class="pictureLeft" src="img/chaussure1.jpg" alt="chaussure"><h2>454€</h2></td>
-                <td><p><b>scott jane</b></p><img class="pictureMidle" src="img/chaussure3.jpg" alt="chaussure"><h2>649€</h2></td>
-                <td><p><b>rossignole Redflex</b></p><img class="pictureRight" src="img/chaussure1.jpg " alt=chaussure><h2>454€</h2></td>
+        <form action="#">
+            <label for="questionSelect">question courante:</label>
+            <select name="question" id="questionSelect" >
+                <option value="question1">Mon coli n'est pas arriver</option>
+                <option value="dog">Où est mon coli?</option>
+                <option value="cat">Peut on payer en plusieur fois?</option>
+                <option value="hamster">Comment ce faire remboursser?</option>
+                <option value="parrot">Un service d'entretien du materiel existe-t-il?</option>
+                <option value="spider">Comment fonction la garrantie</option>
+                <option value="goldfish">Comment ma vie privée et mes données personnelles en ligne sont-elles protégées ?</option>
+                <option value="spider">Comment puis-je résilier une adhésion ou un abonnement ?</option>
+            </select>
 
-            </tr>
-            <tr>
-                <td><p><b>rossignole blackeyes</b></p><img class="pictureLeft" src="img/chaussure2.jpeg" alt="chaussure"><h2>615€</h2></td>
-                <td><p><b>scott jane</b></p><img class="pictureMidle" src="img/chaussure3.jpg" alt="chaussure"><h2>649€</h2></td>
-                <td><p><b>rossignole blackeyes</b></p><img class="pictureRight" src="img/chaussure2.jpeg" alt="chaussure"><h2>615€</h2></td>
-
-            </tr>
-            <tr>
-                <td><p><b>scott jane</b></p><img class="pictureLeft" src="img/chaussure3.jpg" alt="chaussure"><h2>649€</h2></td>
-                <td><p><b>rossignole Redflex</b></p><img class="pictureMidle" src="img/chaussure1.jpg" alt="chaussure"><h2>454€</h2></td>
-                <td><p><b>rossignole blackeyes</b></p><img class="pictureRight" src="img/chaussure2.jpeg" alt="chaussure"><h2>615€</h2></td>
-
-            </tr>
-        </table>
+            
+        </form>
     </main>
 
     <footer>

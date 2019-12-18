@@ -11,7 +11,7 @@
     <header>
         <nav>
             <ul>
-                <li id="liLogo" ><img id="logo" src="img/logoBaboSki.png" alt="logoski"></li>
+                <li id="liLogo" ><a id="lienLogo" href="index.html"><img id="logo" src="img/logoBaboSki.png"  alt="logoski"></a></li>
                 <li class="deroulant"><a href="#">Equipement &ensp;</a>
                     <ul class="sous">
                         <li><a href="ski.html">Ski</a></li>
@@ -25,11 +25,16 @@
                         <li><a href="casque.html">Casques</a></li>
                         <li><a href="manteau.html">Manteaux</a></li>
                         <li><a href="pantalon.html">Pantalons</a></li>
-
                     </ul>
                 </li>
                 <li><a href="#">Contact</a></li>
-                <li> <a href="index.html">accueuil</a> </li>
+                <li>
+                    <form id="formHeader" action=""  autocomplete="off" onsubmit="return false">
+                        <input id="pseudo" type="text" name="name" placeholder="pseudo" >
+                        <input type="password" name="password" placeholder="mot de passe">
+                        <input type="submit" name="ok" onclick="pseud()" value="valider" >
+                    </form>
+                </li>
             </ul>
         </nav>
         
@@ -38,39 +43,45 @@
     </header>
 
     <main>
-        <table>
+        <table id="skiTable">
             <tr>
-                <td ><img class="paysage" src="img/grecePaysage.jpeg" alt="grece"></td>
-                <td class="tdMidle"></td>
-                <td><img class="paysage" src="img/tailandPaysage.jpeg" alt="tailand"></td>
+                <td><p><b>Bern Watts</b></p><img class="pictureLeft" src="img/casque1.png" alt="casque"><h2>454€</h2></td>
+                <td><p><b>Poc Auric</b></p><img class="pictureMidle" src="img/casque3.png" alt="casque"><h2>649€</h2></td>
+                <td><p><b>Bern Watts</b></p><img class="pictureRight" src="img/casque1.png" alt=casque><h2>454€</h2></td>
 
             </tr>
             <tr>
-                <td class="tdImg"><img class="portraiLeft" src="img/iguanePortrai.jpeg" alt="iguane"></td>
-                <td class="tdMidle">
-                    <h3>Des destinations à couper le soufle!</h3>
-                    <div>
-                        <p>vous aimer voyager dans des pays <b> paradisiaques</b> sans etre obliger de manger des pate pendant 4mois? si oui, le nepal est fait pour <b>vous</b></p><br>
-                        <p>une moyen de 4,8<img id="star" src="img/star.png" alt="star"> sur tripadvisor<img id="tripadvisor" src="img/tripadvisor.png" alt="tripadvisor"></p>
-
-                    </div>
-                </td>
-                <td class="tdImg"><img class="portraiRight" src="img/montagnePortrai.jpeg" alt="montagne"></td>
+                <td><p><b>Bern Macon</b></p><img class="pictureLeft" src="img/casque2.png" alt="casque"><h2>615€</h2></td>
+                <td><p><b>Poc Auric</b></p><img class="pictureMidle" src="img/casque3.png" alt="casque"><h2>649€</h2></td>
+                <td><p><b>Bern Macon</b></p><img class="pictureRight" src="img/casque2.png" alt="casque"><h2>615€</h2></td>
 
             </tr>
             <tr>
-                <td><img class="paysage" src="img/pontPaysage.jpeg" alt="pont"></td>
-                <td class="tdMidle"></td>
-                <td><img class="paysage" src="img/cretePaysage.jpeg" alt="crete"></td>
+                <td><p><b>Poc Auric</b></p><img class="pictureLeft" src="img/casque3.png" alt="casque"><h2>649€</h2></td>
+                <td><p><b>Bern Watts</b></p><img class="pictureMidle" src="img/casque1.png" alt="casque"><h2>454€</h2></td>
+                <td><p><b>Bern Macon</b></p><img class="pictureRight" src="img/casque2.png" alt="casque"><h2>615€</h2></td>
 
             </tr>
-
-
         </table>
     </main>
 
     <footer>
-
+        <ul id="footerList">
+            <li id="footerLogo">
+                <h3>Les ambassadeurs de la marque:</h3>
+                <a href="https://www.alpedhuez.com/"><img class="logoAmbassadeurs" src="img/logoAlpe.png" alt="alpe"></a>
+                <a href="https://www.valthorens.com/fr/"><img class="logoAmbassadeurs" src="img/logoValto.png" alt="valto"></a>
+            </li>
+            <li id="copirite">
+                <p>©Babo SKI bootcamp2019</p>
+            </li>
+            <li id="nousContacter">
+                <a  href="contact.html"> Nous contacter</a>
+            </li>
+            <li id="sav">
+                <a href="sav.html">SAV</a>
+            </li>
+        </ul>
     </footer>
     <script src="js/script.js"></script>
 </body>
