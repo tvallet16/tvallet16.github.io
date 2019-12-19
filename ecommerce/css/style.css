@@ -434,7 +434,8 @@ iframe{
 }
 
 #formSav select:hover{
-    background-color: cornflowerblue;
+    background-color:#bbb;
+    border:1px solid #000;
 
 }
 
