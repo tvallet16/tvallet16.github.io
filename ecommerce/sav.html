@@ -12,11 +12,11 @@
         <nav>
             <ul>
                 <li id="liLogo" ><a id="lienLogo" href="index.html"><img id="logo" src="img/logoBaboSki.png"  alt="logoski"></a></li>
-                <li class="deroulant"><a href="#">Equipement &ensp;</a>
+                <li class="deroulant"><a href="#">Equipements &ensp;</a>
                     <ul class="sous">
                         <li><a href="ski.html">Ski</a></li>
                         <li><a href="snowboard.html">Snowboard</a></li>
-                        <li><a href="chaussure.html">Chaussure</a></li>
+                        <li><a href="chaussure.html">Chaussures</a></li>
                     </ul>
                 </li>
                 <li class="deroulant"><a href="#"> Accessoires &ensp;</a>
@@ -43,7 +43,9 @@
     </header>
 
     <main>
-            <label for="questionSelect">question courante:</label>
+        <h1 id="titreSav">Bienvenue sur la page du service après vente de Babo SKI</h1>
+        <form id="formSav" action="#">
+            <label for="questionSelect"><h3>question courante:</h3></label>
             <select name="question" id="questionSelect" >
                 <option value="question1">Mon coli n'est pas arriver</option>
                 <option value="dog">Où est mon coli?</option>
@@ -58,28 +60,28 @@
 
             <div class="wrap-contact100">
                 <span class="contact100-form-title">
-                    Envoie nous ton message :
+                    <h3>Envoie nous ton message :</h3>
                 </span>
 
-                <div class="wrap-input100 validate-input" data-validate="Please enter your name">
-                    <input class="input100" type="text" name="name" placeholder="Entre ton nom">
-                    <span class="focus-input100"></span>
+                <div>
+                    <input  type="text" name="name" placeholder="Entre ton nom">
                 </div>
 
-                <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
-                    <input class="input100" type="text" name="email" placeholder="Entre ton E-mail">
-                    <span class="focus-input100"></span>
+                <div>
+                    <input  type="text" name="name" placeholder="Entre ton prenom">
                 </div>
 
-                <div class="wrap-input100 validate-input" data-validate="Please enter your phone">
-                    <input class="input100" type="text" name="phone" placeholder="Ton numéro de téléphone">
-                    <span class="focus-input100"></span>
+                <div>
+                    <input  type="email" name="email" placeholder="Entre ton E-mail">
                 </div>
 
-                <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                <div>
+                    <input  type="number" name="phone" placeholder="Ton numéro de téléphone">
+                </div>
+
+                <div>
                     <textarea class="input100" name="message"
                         placeholder="Ton avis nous intéresse. Point positif ? Point Négatif?"></textarea>
-                    <span class="focus-input100"></span>
                 </div>
 
                 <div class="container-contact100-form-btn">
